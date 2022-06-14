@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da forca</title>    
+        <link href="reset.css" rel="stylesheet">
+        <link href="adicionar.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="parte-esquerda">
+                <div class="cabecalho">
+                    <img src="img/alura.png" alt="alura" class="alura">
+                    <h1 class="titulo">Jogo da forca</h1>
+                </div>
+                <form id="form">
+                    <textarea name="adiciona" id="placeholder" cols="30" rows="10" class="adicionar" placeholder="Digite seu texto" ></textarea>
+                    <div class="info">
+                        <img src="img/Vector.png" alt="notificação" class="notificacao">
+                        <p class="aviso">Máx. de 8 letras</p>
+                    </div>
+                    <div>
+                        <p class="adicionando"></p>
+                    </div>
+                    <div class="botoes">
+                        <button type="submit" class="botao-c">Salvar e começar</button>
+                        <button type="submit" class="botao-d">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p class="copyright">&copy; Desenvolvido por Elias Miranda - 2022</p>
+        </footer>
+        <script src="forca.js"></script>
+    </body>
+</html>
